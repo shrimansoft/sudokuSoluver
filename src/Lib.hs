@@ -14,12 +14,14 @@ fibs n = a where
 
 array2d = array ((1,1),(9,9)) [((a, b), a ^ 2 + b ^ 2) | a <- [1..9], b<-[1..9]]
 
-myUnwords :: [String] -> String
-myUnwords [] = ""
-myUnwords [x] = x
-myUnwords (x:xs) = x ++ "\U2503" ++ myUnwords xs
+
+framing :: String -> String -> String -> String -> [String]
+framing initCh finalCh fillCh cutCh  [x1,x2,x3,x4,x5,x6,x7,x8,x9] = myFold [initCh,x1,fillCh,x2,fillCh,x3,cutCh,x4,fillCh,x5,fillCh,x6,cutCh,x7,fillCh,x8,fillCh,x9,finalCh] where
+    myFold [] = ""
+    myFold (x:xs) = x + myFold xs
+
 
 showTable arr = 
-  unlines $ map (myUnwords . map (show . (arr !))) indices
+  unlines $ map ((framing "┃" "┃" "│" "┃" ) . map (show . (arr !))) indices
   where indices = [[(x, y) | x <- [startX..endX]] | y <- [startY..endY]]
         ((startX, startY), (endX, endY)) = bounds arr
