@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/shriman/Documents/GitHub/sudokuSoluver/.stack-work/install/x86_64-osx/55a6ce22fd3713c2ce4c5c679e7232ba2709eab24b4e10984620fa26ecdf9d02/8.8.3/bin"
-libdir     = "/Users/shriman/Documents/GitHub/sudokuSoluver/.stack-work/install/x86_64-osx/55a6ce22fd3713c2ce4c5c679e7232ba2709eab24b4e10984620fa26ecdf9d02/8.8.3/lib/x86_64-osx-ghc-8.8.3/sudokuSolver-0.1.0.0-5sFBj9bfTxLBzXVZe97FEU-sudokuSolver-exe"
+libdir     = "/Users/shriman/Documents/GitHub/sudokuSoluver/.stack-work/install/x86_64-osx/55a6ce22fd3713c2ce4c5c679e7232ba2709eab24b4e10984620fa26ecdf9d02/8.8.3/lib/x86_64-osx-ghc-8.8.3/sudokuSolver-0.1.0.0-6HXyjxPbeC9KDepVuUNhjD-sudokuSolver-exe"
 dynlibdir  = "/Users/shriman/Documents/GitHub/sudokuSoluver/.stack-work/install/x86_64-osx/55a6ce22fd3713c2ce4c5c679e7232ba2709eab24b4e10984620fa26ecdf9d02/8.8.3/lib/x86_64-osx-ghc-8.8.3"
 datadir    = "/Users/shriman/Documents/GitHub/sudokuSoluver/.stack-work/install/x86_64-osx/55a6ce22fd3713c2ce4c5c679e7232ba2709eab24b4e10984620fa26ecdf9d02/8.8.3/share/x86_64-osx-ghc-8.8.3/sudokuSolver-0.1.0.0"
 libexecdir = "/Users/shriman/Documents/GitHub/sudokuSoluver/.stack-work/install/x86_64-osx/55a6ce22fd3713c2ce4c5c679e7232ba2709eab24b4e10984620fa26ecdf9d02/8.8.3/libexec/x86_64-osx-ghc-8.8.3/sudokuSolver-0.1.0.0"

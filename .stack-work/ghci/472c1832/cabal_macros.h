@@ -33,17 +33,6 @@
   (major1) == 4 && (major2) == 13 && (minor) <= 0)
 #endif /* MIN_VERSION_base */
 
-/* package sudokuSolver-0.1.0.0 */
-#ifndef VERSION_sudokuSolver
-#define VERSION_sudokuSolver "0.1.0.0"
-#endif /* VERSION_sudokuSolver */
-#ifndef MIN_VERSION_sudokuSolver
-#define MIN_VERSION_sudokuSolver(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  1 || \
-  (major1) == 0 && (major2) == 1 && (minor) <= 0)
-#endif /* MIN_VERSION_sudokuSolver */
-
 /* tool gcc-11.0.3 */
 #ifndef TOOL_VERSION_gcc
 #define TOOL_VERSION_gcc "11.0.3"
@@ -132,9 +121,15 @@
   (major1) == 8 && (major2) == 8 && (minor) <= 3)
 #endif /* MIN_TOOL_VERSION_runghc */
 
+#ifndef CURRENT_PACKAGE_KEY
+#define CURRENT_PACKAGE_KEY "sudokuSolver-0.1.0.0-Ko67ekYUesXQaHwD1RgOg"
+#endif /* CURRENT_PACKAGE_KEY */
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "sudokuSolver-0.1.0.0-6HXyjxPbeC9KDepVuUNhjD-sudokuSolver-exe"
+#define CURRENT_COMPONENT_ID "sudokuSolver-0.1.0.0-Ko67ekYUesXQaHwD1RgOg"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"
 #endif /* CURRENT_PACKAGE_VERSION */
+
+#undef CURRENT_PACKAGE_KEY
+#undef CURRENT_COMPONENT_ID
